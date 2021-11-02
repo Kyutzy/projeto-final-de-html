@@ -103,4 +103,25 @@ margin: 0;
 .item input{
     visibility: hidden;
 }
+.cad{
+    margin:auto;
+    width: 80%;
+    height: 92vh;
+}
+.fotocad{
+    float:left;
+    overflow: hidden;
+    color: rgb(0,0,0);
+    z-index: 2;
+}
+.casa{
+    float: left;
+    background-color: white;
+    margin: auto;
+    opacity: 1;
+    width: 700px;
+    height: 300px;
+    z-index: 3;
+    
+}
 
