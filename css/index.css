@@ -6,14 +6,14 @@
 margin: 0;
 }
 .conteudo{
-    height: 400vh;
+    height: 1400%;
     width: 100%;
     background-color: blanchedalmond;
 }
 .cabecalho{
     margin: 0;
     width:100%;
-    height: 3vh;
+    height: 3%;
 }
 .cabecalho-conteudo{
     font-family:ubuntu;
@@ -24,7 +24,7 @@ margin: 0;
 }
 .menu{
     margin: auto;
-    height: 45vh;
+    height: 350px;
     width: 80%;
     background-color:blue;
 }
@@ -32,8 +32,8 @@ margin: 0;
     float: left;
     height: 80%;
     width: 85%;
-    margin-left: 2.5vh;
-    margin-right: 2.5vh;
+    margin-left: 20px;
+    margin-right: 250px;
     background-color: purple
 }
 .logo img{
@@ -43,7 +43,7 @@ margin: 0;
     float: left;
     height: 80%;
     width: 22%;
-    margin: 3vh;
+    margin: 30px;
     background-color:aquamarine;
 }
 .texto h1{
@@ -106,22 +106,129 @@ margin: 0;
 .cad{
     margin:auto;
     width: 80%;
-    height: 92vh;
+    height: 650px;
+    background-color: black;
 }
-.fotocad{
-    float:left;
+.fotocad img{
+    position: relative;
     overflow: hidden;
-    color: rgb(0,0,0);
+    opacity: 0.6;
     z-index: 2;
 }
+.opacidade{
+    position: absolute;
+    width: 1215px;
+    height:685px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .casa{
-    float: left;
+    position: absolute; left: 525px; bottom:20px;
     background-color: white;
     margin: auto;
-    opacity: 1;
-    width: 700px;
-    height: 300px;
+    opacity: 0.9;
+    width: 500px;
+    height: 200px;
     z-index: 3;
-    
+}
+.foto-inspiradora{
+    margin:auto;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background: purple;
+}
+.foto-inspiradora img{
+    border-radius: inherit;
+}
+.casa hr{
+border: 1px dotted black;
+}
+.texto-slogan{
+    margin: auto;
+    margin-top: 10px;
+    width: 350px;
+    text-align: center;
+}
+.botao-cad{
+    position: absolute; left: 140px; top: 250px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid grey;
+    z-index: 4;
+}
+.botao-cad a{
+    position: relative; top: 10px;
+    padding:40px;
+}
+.vendas{
+    margin:auto;
+    width: 1215px;
+    height: 800px;
+    background-color: white;
+}
+.titulo-vendas{
+    float: left;
+    margin-left: 350px;
+    margin-top: 50px;
+    width:500px;
+    height: 50px;
+    background-color: grey;
+}
+.titulo-vendas h1{
+    padding: 10px;
+    text-align: center;
+}
+.espaco-produtos{
+    margin-top: 20px;
+    width: 1000px;
+    height: 575px;
+    background-color:purple; 
+    float: left;
+    margin-left: 100px;
+}
+.produto{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 525px;
+    background-color: turquoise;
+    display: inline-block;
+}
+.produto hr{
+    width: 80%;
+    margin: auto;
+    border-top: 2px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid transparent;
+    margin-bottom: 5px;
+}
+.foto-produto{
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 1000px;
+    background-color:cadetblue;
+}
+.descricao-produto{
+    margin:auto;
+    width: 250px;
+    height: 200px;
+    background-color: black;
+}
+.mais-produtos, .botao-comprar{
+    margin:auto;
+    margin-top: 45px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+.botao-comprar{
+    margin-top: 15px;
 }
 
