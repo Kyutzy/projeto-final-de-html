@@ -1,293 +1,367 @@
-.body{
-    background-color: #2a6dbb;
-    margin: 0;
+.body {
+  background-color: #2a6dbb;
+  margin: 0;
 }
-*{
-margin: 0;
+* {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.conteudo{
-    height: 1400%;
-    width: 100%;
-    background-color: blanchedalmond;
+.conteudo {
+  height: 1400%;
+  width: 100%;
+  background-image: linear-gradient(#0C6D98, #ACB9C8, #C7C5CB);
 }
-.cabecalho{
-    margin: 0;
-    width:100%;
-    height: 3%;
+.cabecalho {
+  margin: 0;
+  width: 100%;
+  height: 3%;
 }
-.cabecalho-conteudo{
-    font-family:ubuntu;
-    margin:0;
-    font-size: 9;
-    text-align:center;
-    background-color:aliceblue;
+.cabecalho-conteudo {
+  font-family: ubuntu;
+  margin: 0;
+  font-size: 9;
+  text-align: center;
+  background-color: aliceblue;
 }
-.menu{
-    margin: auto;
-    height: 350px;
-    width: 1215px;
-    background-color:blue;
+.menu {
+  margin: auto;
+  height: 350px;
+  width: 1215px;
+  background-color:rgba(254, 255, 255, 0.4);
+  border-radius: 5px;
 }
-.logo{
-    float: left;
-    height: 230px;
-    width: 230px;
-    margin-left: 20px;
-    margin-right: 250px;
-    background-color: purple
+.logo {
+  float: left;
+  height: 230px;
+  width: 230px;
+  margin-left: 25px;
+  margin-right: 250px;
+  box-shadow: 10px, 5px, 5px, black;
 }
-.logo img{
-    padding:5%;
+.logo img {
+  padding: 15px;
 }
-.texto{
-    float: left;
-    height: 280px;
-    width: 280px;
-    margin: 30px;
-    background-color:aquamarine;
+.texto {
+  float: left;
+  height: 280px;
+  width: 280px;
+  margin: 30px;
+  background-color: rgba(254, 255, 255, 0.4);
+  font-size: 25px;
+  border-radius: 30px;
 }
-.texto h1{
-    font-family: Ubuntu;
-    text-align: center;
-    font-size: 20px;
+.texto hr{
+  margin: auto;
+  width: 60%;
 }
-.opcoes{
-    margin: 30px;
-    float: left;
-    height: 280px;
-    width: 600px;
-    background-color:black;
+.texto h1 {
+  font-family: Friz Quadrata;
+  text-align: center;
+  font-size: 20px;
 }
-.menu-opcoes{
-    margin: auto;
-    margin-top: 10px;
-    height: 240px;
-    width: 500px;
-    background-color:white;
+.opcoes {
+  margin: 30px;
+  margin-left: 5px;
+  float: left;
+  height: 280px;
+  width: 600px;
 }
-.opcao{
-    float: left;
-    margin-top: 20px;
-    margin-left: 50px;   
-    text-align: center;
-    width: 400px;
-    height: 50px;
-    background-color:burlywood;
-    
+.menu-opcoes {
+  margin: auto;
+  margin-top: 15px;
+  height: 240px;
+  width: 500px;
+  background-color: rgba(254, 255, 255, 0.4);
+  border-radius: 10px;
 }
-.opcao p{
-    margin-top: 4%;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
+.opcao {
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  background-color: #CDDDFF;
+  transition: all 100ms;
+  border-radius: 10px;
 }
-.opcao i{
-    float: left;
-    margin-top: 3%;
-    margin-left: 8%;
-    margin-right: 8%;
+.opcao p {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
 }
-.nav{
-
-    margin-top: 30px;
-    float: left;
-    height: 280px;
-    width: 150px;
-    background-color:chartreuse;
+.opcao i {
+  float: left;
+  margin: 10px;
+  margin-left: 30px;
 }
-.item{
-    margin-top: 30px; 
-    text-align: center;   
+.opcao:hover{
+  transform: scale(1.2);
+  color: white;
 }
-.item input{
-    visibility: hidden;
+.nav {
+  margin-top: 30px;
+  float: left;
+  height: 280px;
+  width: 150px;
+  background-color: rgba(254, 255, 255, 0.4);
 }
-.cad{
-    margin:auto;
-    width: 1215px;
-    height: 650px;
-    background-color: black;
+.item {
+  margin-top: 30px;
+  text-align: center;
+  transition: all 300ms;
 }
-.fotocad img{
-    position: relative;
-    overflow: hidden;
-    opacity: 0.6;
-    z-index: 2;
+.item input {
+  visibility: hidden;
 }
-.opacidade{
-    position: absolute;
-    width: 1215px;
-    height:685px;
-    background-color: rgba(0, 0, 0, 0.6);
+.item:hover{
+  color: white;
 }
-.casa{
-    position: absolute; left: 525px; bottom:20px;
-    background-color: white;
-    margin: auto;
-    opacity: 0.9;
-    width: 500px;
-    height: 200px;
-    z-index: 3;
+.cad {
+  margin: auto;
+  width: 1215px;
+  height: 650px;
+  background-color: rgba(254, 255, 255, 0.4);
 }
-.foto-inspiradora{
-    margin:auto;    
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
-    border-radius: 80%;
-    background: purple;
+.fotocad{
+  margin:auto;
 }
-.foto-inspiradora img{
-    border-radius: inherit;
+.fotocad img {
+  overflow: hidden;
+  opacity: 0.6;
+  z-index: 2;
 }
-.casa hr{
-border: 1px dotted black;
+.opacidade {
+  position: absolute; left: 335px; top: 400px;
+  width: 900px;
+  height: 505px;
 }
-.texto-slogan{
-    margin: auto;
-    margin-top: 10px;
-    width: 350px;
-    text-align: center;
-}
-.botao-cad{
-    position: absolute; left: 140px; top: 250px;
-    width: 200px;
-    height: 40px;
-    background-color: white;
-    border: 2px solid grey;
-    z-index: 4;
-}
-.botao-cad a{
-    position: relative; top: 10px;
-    padding:40px;
-}
-.vendas, .demo, .comentarios{
-    margin:auto;
-    width: 1215px;
-    height: 800px;
-    background-color: white;
-}
-.titulo-vendas, .titulo-video{
-    float: left;
-    margin-left: 350px;
-    margin-top: 50px;
-    width:500px;
-    height: 50px;
-    background-color: grey;
-}
-.titulo-vendas h1{
-    padding: 10px;
-    text-align: center;
-}
-.espaco-produtos, .espaco-videos{
-    margin-top: 20px;
-    width: 1000px;
-    height: 575px;
-    background-color:purple; 
-    float: left;
-    margin-left: 100px;
-}
-.espaco-produtos{
-    background-image: url(../imagens/background2.jpg);
-}
-.produto{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 5px;
-    border-radius: 5px;
-    width: 300px;
-    height: 525px;
-    background-color: rgba(47, 49, 54, 0.7);
-    display: inline-block;
-}
-.produto hr{
-    width: 80%;
-    margin: auto;
-    border-top: 2px solid rgba(0, 0, 0, 0.6);
-    border-bottom: 2px solid transparent;
-    margin-bottom: 5px;
-}
-.foto-produto{
-    margin:auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 200px;
-    width: 200px;
-    border-radius: 1000px;
-    background-color:rgba(12, 13, 17, 0.7);
-}
-.foto-produto img{
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
-.descricao-produto{
-    margin:auto;
-    width: 250px;
-    height: 200px;
-    background-color: rgba(12, 13, 17, 0.7);
-    border-radius: 20px;
-}
-.mais-produtos, .botao-comprar{
-    margin:auto;
-    margin-top: 45px;
-    border-radius: 20px;
-    width: 200px;
-    height: 50px;
-    background-color: rgba(12, 13, 17, 0.7);
-}
-.botao-comprar{
-    margin-top: 15px;
-}
-.botao-comprar a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-.demo{
-    background-color: aquamarine;
-}
-.comentarios{
-    background-color: #EFDCDB;
-}
-#clientes, #endereco{
-    float: left;
-    height: 300px;
-    width: 800px;
-    background-color: blue;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    margin-left: 200px;
-}
-.sociais{   
-    margin:auto;
-    width: 1215px;
-    height: 150px;
-    background-color:#2a6dbb;
-}
-.icone{
-    display: inline-block;
-    width: 100px;
-    height:100px;
-    background-color:#4738FF;
-    margin-top: 25px;
-    margin-left: 150px;
-    margin-right: 20px;
-    text-align: center;
-    transition: all 500ms;
-}
-.icone:hover{
-    border-radius: 20px;
-}
-.icone a{
-    text-decoration: none;
-    color: black;
-    transition: all 500ms;
-    border-radius: 0px;
-}
-.icone a:hover{
-    color: #1DA1F2;
+.casa {
+  position: absolute;
+  left: 525px;
+  bottom: 20px;
+  background-color: white;
+  margin: auto;
+  opacity: 0.9;
+  width: 500px;
+  height: 200px;
+  z-index: 3;
+  border: 5px transparent solid;
+  transition: all 500ms;
 }
 
+.casa:hover, .botao-cad:hover{
+  border: 5px #f8d88e solid;
+  color: white;
+  background-color: #FFC749;
+}
+.foto-inspiradora {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  background: purple;
+}
+.foto-inspiradora img {
+  border-radius: inherit;
+  transition: all 500ms;
+}
+.casa hr {
+  border: 1px dotted black;
+}
+.foto-inspiradora img:hover{
+  transform: rotate(15deg);
+}
+.texto-slogan {
+  margin: auto;
+  margin-top: 10px;
+  width: 350px;
+  text-align: center;
+}
+.botao-cad {
+  position: absolute;
+  left: 140px;
+  top: 250px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid grey;
+  z-index: 4;
+  transition: all 500ms;
+  border: 5px transparent solid;
+}
+.botao-cad a {
+  position: relative;
+  top: 10px;
+  padding: 40px;
+}
+.vendas,
+.demo,
+.comentarios {
+  margin: auto;
+  width: 1215px;
+  height: 800px;
+  background-color: white;
+}
+.titulo-vendas,
+.titulo-video {
+  float: left;
+  margin-left: 350px;
+  margin-top: 50px;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.titulo-vendas h1 {
+  padding: 10px;
+  text-align: center;
+}
+.vendas{
+  background-color: rgba(255,255,255,0.4);
+}
+.espaco-produtos,
+.espaco-videos {
+  margin-top: 20px;
+  width: 1000px;
+  height: 575px;
+  background-color: purple;
+  float: left;
+  margin-left: 100px;
+}
+.espaco-produtos {
+  background-image: url(../imagens/background2.jpg);
+}
+.produto {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 525px;
+  background-color: rgba(127, 129, 129, 0.7);
+  display: inline-block;
+  transition: all 500ms;
+}
+.produto:hover{
+  background-color: rgba(152, 187, 192, 0.9);
+}
+.produto hr {
+  width: 80%;
+  margin: auto;
+  border-top: 2px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid transparent;
+  margin-bottom: 5px;
+}
+.foto-produto {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 1000px;
+  background-color: #7f7f7f;
+  transition: all 500ms;
+}
+.foto-produto img {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.foto-produto:hover{
+  background-color: rgba(153, 211, 230, 0.6);
+  transform: rotate(15deg);
+}
+.descricao-produto {
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  background-color: rgba(254, 255, 255, 0.7);
+  border-radius: 20px;
+}
+.descricao-produto p{
+  padding: 25px;
+}
+.mais-produtos,
+.botao-comprar {
+  margin: auto;
+  margin-top: 45px;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(12, 13, 17, 0.7);
+}
+.botao-comprar {
+  margin-top: 15px;
+}
+.botao-comprar a, .mais-produtos a{
+  float: center;
+  color: white;
+  text-decoration: none;
+  padding-left: 45px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  font-size: 26px;
+  transition: color 500ms;
+}
+.mais-produtos a{
+  padding-left: 25px;
+
+}
+.botao-comprar a:hover, .mais-produtos a:hover{
+  color: #A3CCBE;
+}
+.demo {
+  background-color: rgba(254, 255, 255, 0.4)
+}
+.comentarios {
+  background-color: rgba(254, 255, 255, 0.4)
+}
+#clientes,
+#endereco {
+  float: left;
+  height: 300px;
+  width: 800px;
+  background-color: blue;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.sociais {
+  margin: auto;
+  width: 1215px;
+  height: 150px;
+  background-color: #C7C5CB;
+}
+.icone-p, .icone-t, .icone-i, .icone-f{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 20px;
+  text-align: center;
+  transition: all 500ms;
+}
+.icone-p a, .icone-t a, .icone-i a, .icone-f a {
+  text-decoration: none;
+  color: black;
+  transition: all 500ms;
+}
+.icone-t a:hover {
+  color: #1da1f2;
+}
+.icone-f a:hover{
+  color: #0063E0;
+}
+.icone-p a:hover{
+  color: #E60023;
+}
+.icone-i a:hover{
+  color: #903DB8;
+}
