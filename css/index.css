@@ -25,13 +25,13 @@ margin: 0;
 .menu{
     margin: auto;
     height: 350px;
-    width: 80%;
+    width: 1215px;
     background-color:blue;
 }
 .logo{
     float: left;
-    height: 80%;
-    width: 85%;
+    height: 230px;
+    width: 230px;
     margin-left: 20px;
     margin-right: 250px;
     background-color: purple
@@ -41,8 +41,8 @@ margin: 0;
 }
 .texto{
     float: left;
-    height: 80%;
-    width: 22%;
+    height: 280px;
+    width: 280px;
     margin: 30px;
     background-color:aquamarine;
 }
@@ -52,27 +52,26 @@ margin: 0;
     font-size: 20px;
 }
 .opcoes{
-    margin-left: 4vh;
-    margin-top: 2.5vh;
+    margin: 30px;
     float: left;
-    height: 35vh;
-    width: 80vh;
+    height: 280px;
+    width: 600px;
     background-color:black;
-    padding: 1%;
 }
 .menu-opcoes{
-    padding: 2%;
     margin: auto;
-    height: 90%;
-    width: 85%;
+    margin-top: 10px;
+    height: 240px;
+    width: 500px;
     background-color:white;
 }
 .opcao{
-    margin:auto;
-    margin-bottom: 5%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;   
     text-align: center;
-    width: 80%;
-    height: 25%;
+    width: 400px;
+    height: 50px;
     background-color:burlywood;
     
 }
@@ -89,11 +88,11 @@ margin: 0;
     margin-right: 8%;
 }
 .nav{
-    margin-left: 4vh;
-    margin-top: 2.5vh;
+
+    margin-top: 30px;
     float: left;
-    height: 38vh;
-    width: 20vh;
+    height: 280px;
+    width: 150px;
     background-color:chartreuse;
 }
 .item{
@@ -105,7 +104,7 @@ margin: 0;
 }
 .cad{
     margin:auto;
-    width: 80%;
+    width: 1215px;
     height: 650px;
     background-color: black;
 }
@@ -163,13 +162,13 @@ border: 1px dotted black;
     position: relative; top: 10px;
     padding:40px;
 }
-.vendas{
+.vendas, .demo, .comentarios{
     margin:auto;
     width: 1215px;
     height: 800px;
     background-color: white;
 }
-.titulo-vendas{
+.titulo-vendas, .titulo-video{
     float: left;
     margin-left: 350px;
     margin-top: 50px;
@@ -181,13 +180,16 @@ border: 1px dotted black;
     padding: 10px;
     text-align: center;
 }
-.espaco-produtos{
+.espaco-produtos, .espaco-videos{
     margin-top: 20px;
     width: 1000px;
     height: 575px;
     background-color:purple; 
     float: left;
     margin-left: 100px;
+}
+.espaco-produtos{
+    background-image: url(../imagens/background2.jpg);
 }
 .produto{
     margin-top: 20px;
@@ -196,7 +198,7 @@ border: 1px dotted black;
     border-radius: 5px;
     width: 300px;
     height: 525px;
-    background-color: turquoise;
+    background-color: rgba(47, 49, 54, 0.7);
     display: inline-block;
 }
 .produto hr{
@@ -213,22 +215,79 @@ border: 1px dotted black;
     height: 200px;
     width: 200px;
     border-radius: 1000px;
-    background-color:cadetblue;
+    background-color:rgba(12, 13, 17, 0.7);
+}
+.foto-produto img{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 .descricao-produto{
     margin:auto;
     width: 250px;
     height: 200px;
-    background-color: black;
+    background-color: rgba(12, 13, 17, 0.7);
+    border-radius: 20px;
 }
 .mais-produtos, .botao-comprar{
     margin:auto;
     margin-top: 45px;
+    border-radius: 20px;
     width: 200px;
     height: 50px;
-    background-color: black;
+    background-color: rgba(12, 13, 17, 0.7);
 }
 .botao-comprar{
     margin-top: 15px;
+}
+.botao-comprar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.demo{
+    background-color: aquamarine;
+}
+.comentarios{
+    background-color: #EFDCDB;
+}
+#clientes, #endereco{
+    float: left;
+    height: 300px;
+    width: 800px;
+    background-color: blue;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.sociais{   
+    margin:auto;
+    width: 1215px;
+    height: 150px;
+    background-color:#2a6dbb;
+}
+.icone{
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    background-color:#4738FF;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 20px;
+    text-align: center;
+    transition: all 500ms;
+}
+.icone:hover{
+    border-radius: 20px;
+}
+.icone a{
+    text-decoration: none;
+    color: black;
+    transition: all 500ms;
+    border-radius: 0px;
+}
+.icone a:hover{
+    color: #1DA1F2;
 }
 
