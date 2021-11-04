@@ -232,11 +232,11 @@
 .espaco-produtos,
 .espaco-videos {
   margin-top: 20px;
+  margin-left: 120px;
   width: 1000px;
   height: 575px;
   background-color: purple;
   float: left;
-  margin-left: 100px;
 }
 .espaco-produtos {
   background-image: url(../imagens/background2.jpg);
@@ -330,7 +330,7 @@
 #clientes,
 #endereco {
   height: 300px;
-  width: 800px;
+  width: 860px;
   background-color: blue;
   margin-bottom: 10px;
   margin-left: 200px;
@@ -376,7 +376,7 @@
 .icone-f-rep{
   float: left;
   margin-top: -170px;
-  margin-left: 600px;
+  margin-left: 650px;
   width: 100px;
   height: 100px;
 }
@@ -384,7 +384,7 @@
   margin-top: -105px;
   margin-left: 170px;
   height: 130px;
-  width: 300px;
+  width: 350px;
   text-align: center;
   font-size: 60px;
   padding: 25px;
