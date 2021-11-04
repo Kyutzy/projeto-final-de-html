@@ -1,0 +1,145 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@font-face {
+  font-family: "BeaufortforLOL-Bold";
+  src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+  src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold")
+      format("svg");
+}
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.opacidade {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.cadastro {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imagens/Shadow_Isles_Ruins.png);
+  background-size: 100% 100%;
+}
+.fundo {
+  position: absolute;
+  top: 15%;
+  margin: auto;
+  margin-top: -5%;
+  margin-left: 10%;
+  width: 80%;
+  height: 90%;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 0;
+}
+.texto,
+.subtexto {
+  margin-top: 1%;
+  width: 100%;
+  height: 15%;
+  font-family: BeaufortforLOL-Bold;
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+}
+.subtexto {
+  margin-top: 2%;
+  font-size: 3vh;
+  height: 8%;
+  font-family: BeaufortforLOL, serif;
+  color: #d5b26e;
+}
+.entrada,
+.botao {
+  width: 100%;
+  height: 15%;
+  margin-top: 2%;
+}
+.botao {
+  float: left;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+.entrada input {
+  float: left;
+  margin-left: 30%;
+  width: 40%;
+  height: 60%;
+  border: 0px solid transparent;
+  border-bottom: 0.3vh solid #ca9f5e;
+  background-color: transparent;
+  outline: none;
+  padding: 0%;
+  font-size: 6vh;
+  color: #c4b998;
+}
+.entrada input:focus ~ .texto-flutuante-summoner,
+.entrada input:not(:focus):valid ~ .texto-flutuante-summoner {
+  top: 47%;
+  bottom: 10px;
+  left: 30%;
+  font-size: 2vh;
+  opacity: 1;
+}
+.entrada input:focus ~ .texto-flutuante-senha,
+.entrada input:not(:focus):valid ~ .texto-flutuante-senha {
+  top: 66%;
+  bottom: 10px;
+  left: 30%;
+  font-size: 2vh;
+  opacity: 1;
+}
+.entrada input:focus ~ .texto-flutuante-usuario,
+.entrada input:not(:focus):valid ~ .texto-flutuante-usuario {
+  top: 30%;
+  bottom: 10px;
+  left: 30%;
+  font-size: 2vh;
+  opacity: 1;
+}
+.texto-flutuante-summoner, .texto-flutuante-usuario, .texto-flutuante-senha {
+  position: absolute;
+  pointer-events: none;
+  left: 38%;
+  top: 70%;
+  transition: 0.35s ease all;
+  color: #e4dac9;
+  font-size: 3vh;
+}
+.texto-flutuante-usuario{
+    top: 34%;
+    left: 35%;
+}
+.texto-flutuante-senha{
+    left: 48%;
+}
+.texto-flutuante-summoner{
+    top: 50%;
+    left: 43%;
+}
+
+.botao a {
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: 2px solid #815500;
+  margin: auto;
+  text-decoration: none;
+  font-size: 3vh;
+  background-color: #111111;
+  color: #8d7036;
+  transition: 0.2s ease all;
+}
+.botao a:hover {
+  color: #c4b998;
+}
