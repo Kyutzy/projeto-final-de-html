@@ -94,12 +94,12 @@
   position: absolute;
   pointer-events: none;
   left: 38%;
-  top: 70%;
+  top: 68%;
   transition: 0.35s ease all;
   color: #e4dac9;
   font-size: 5vh;
 }
-.botao a {
+.botao button {
   padding: 20px;
   padding-left: 70px;
   padding-right: 70px;
@@ -111,6 +111,6 @@
   color: #8d7036;
   transition: 0.2s ease all;
 }
-.botao a:hover {
+.botao button:hover {
   color: #c4b998;
 }
