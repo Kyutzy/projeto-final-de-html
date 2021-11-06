@@ -1,0 +1,85 @@
+body{
+    background-image: url(../imagens/mais-produtos.png)
+}
+*{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.principal{
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+}
+.logo{  
+    float: left;
+    margin-top: 2%;
+    margin-left: 41%;
+    width: 12vw;
+    height: 24vh;
+}
+.container-produtos{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+.produto-lol, .produto-vava, .produto-tft{
+    float: left;
+    margin: auto;
+    margin-left: 18%;
+    margin-top: 4%;
+    width: 60%;
+    height: 20%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.produto-lol{
+    background-image: url(../imagens/Banner-lol.png);
+}
+.produto-vava{
+    background-image: url(../imagens/banner-vava.png);
+}
+.produto-tft{
+    background-image: url(../imagens/banner-tft.png);
+}
+.nome{
+    float: left;
+    margin-top: 15%;
+    width: 100%;
+    border-radius:30px;
+    height:50%;
+    background-color:white;
+    transition: 0.5s
+}
+.jogo, .jogovava{
+    width:10%;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.jogovava{
+    margin-top: 2%;
+}
+.texto-rep{
+    margin-top: -95px;
+    margin-left: 350px;
+    height: 130px;
+    width: 350px;
+    text-align: center;
+    font-size: 3vw;
+    padding: 25px;
+  }
+  .texto-rep-vava{
+    margin-top: -85px;
+    margin-left: 433px;
+    height: 130px;
+    width: 350px;
+    text-align: center;
+    font-size: 3vw;
+    padding: 25px;
+  }
+  a{
+      color: black;
+  }
+  .nome:hover{
+    background-color: lightgray;
+    color: white;
+  }

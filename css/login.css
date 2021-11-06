@@ -4,8 +4,10 @@
 }
 .fundo{
     height:100vh;
-    width: 100%;
+    width: 100vw;
     background-image:url(../imagens/arte-login.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
 .container-login{
     float:left;
@@ -61,18 +63,18 @@
 }
 .entrada-login input:focus ~ .floating-label-login,
 .entrada-login input:not(:focus):valid ~ .floating-label-login{
-  top: 303px;
+  top: 41%;
   bottom: 10px;
-  left: 628px;
+  left: 41%;
   font-size: 11px;
   opacity: 1;
 }
 
 .entrada-senha input:focus ~ .floating-label-senha,
 .entrada-senha input:not(:focus):valid ~ .floating-label-senha{
-  top: 415px;
-  bottom: 10px;
-  left: 628px;
+  top: 56%;
+  bottom: 10%;
+  left: 41%;
   font-size: 11px;
   opacity: 1;
 }
@@ -86,13 +88,13 @@
 .floating-label-login, .floating-label-senha{
   position: absolute;
   pointer-events: none;
-  left: 630px;
-  top: 330px;
+  left: 42%;
+  top: 44%;
   transition: 0.2s ease all;
 }
 .floating-label-senha{
-    left: 628px;
-    top: 440px;
+    left: 42%;
+    top: 58%;
 }
 .botao{
     margin:auto;
