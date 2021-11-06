@@ -103,11 +103,11 @@
     background-color: white;
     text-align: center;
 }
-.botao a{
+.botao button{
     color: black;
     transition: 0.2s ease all;  
 }
-.botao a:hover{
+.botao button:hover{
     color: red;
 
 }

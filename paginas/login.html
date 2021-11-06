@@ -9,9 +9,11 @@
       src="https://kit.fontawesome.com/22a766f977.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/geral.js"></script>
     <title>Login</title>
 </head>
 <body>
+    <form name="loginForm">
     <section class="fundo">
         <div class="logo">
             <img src="../imagens/logo.png" width="100%" height="100%">
@@ -21,21 +23,24 @@
                 <div class="instrucoes">
                 <p> Iniciar Sessão </p>
                 </div>
+
                 <div class="entrada-login">
-                        <input type="text" class="inputText" required/>
+                        <input type="username" class="inputText" name=usuario required/>
                         <span class="floating-label-login">Nome de Usuário</span>
                 </div>
                 <div class="entrada-senha">
-                    <input type="password" class="inputText" name="password" required>
+                    <input type="password" class="inputText" name="senha" required>
                     <span class="floating-label-senha">Senha</span>
                 </div>
+                
                 <div class="botao">
-                    <a href="#"><i class="fas fa-caret-square-right fa-5x"></i></a>
+                    <button onClick="login()"><i class="fas fa-caret-square-right fa-5x"></i></button>
                 </div>
 
-                <div class="texto"><a href=#>Criar conta</a></div>
+                <div class="texto"><a href=../paginas/cadastro1.html>Criar conta</a></div>
             </div>
         </div>
-    </section>    
+    </section>
+</form>  
 </body>
 </html>
