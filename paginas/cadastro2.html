@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href=../css/cadastro2.css rel="stylesheet"> 
+    <link href=../css/cadastro2.css rel="stylesheet">
+    <script src="../js/geral.js"></script>
     <title>Cadastre-se em SquidJobs</title>
 </head>
 <body>
+  <form name="form">
     <section class="cadastro">
       <div class="opacidade"></div>
       <div class="fundo">
@@ -18,21 +20,22 @@
           <p>PRECISAMOS DE UM LOGIN, SENHA E UM NOME DE INVOCADOR</p>
         </div>
         <div class="entrada">
-          <input type="username" name="username" required />
+          <input type="username" name="nome_invocador" required />
           <span class="texto-flutuante-usuario">Nome de Usuário do League of Legends</span>
         </div>
         <div class="entrada">
-        <input type="username" name="username" required />
+        <input type="username" name="nome" required />
         <span class="texto-flutuante-summoner">Login do SquidJobs</span>
         </div>
         <div class="entrada">
-        <input type="password" name="username" required />
+        <input type="password" name="senha" required />
         <span class="texto-flutuante-senha">Senha</span>
         </div>
         <div class="botao">
-          <a href="cadastro2.html">CONCLUIR</a>
+          <button onClick="finalizar_cad()">CONCLUIR</a>
         </div>
       </div>
     </section>
+  </form>
   </body>
 </html>

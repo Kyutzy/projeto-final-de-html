@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #FE4653;
+}
+.fundo{
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+}
+.logo{
+    float: left;
+    margin-top: 0.1%;
+    margin-left: 41.9%;
+    width: 15%;
+    height: 30%;
+}
+.logo img{
+    margin-left:0%;
+}
+.container-produtos{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+.categoria-1, .categoria-2{
+    float: left;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 20%;
+    height: 20vh;
+    width: 60%;
+    background-image: url(../imagens/valorant.png);
+    border-radius: 30px;
+    transition: all 0.5s;
+    flex-direction: column;
+}
+.categoria-2{
+    top: 60%;
+    z-index: 2;
+}
+.configuracao-pedido{
+    float: left;
+    margin-top: 12%;
+    overflow: hidden;
+    width: 100%;
+    height: 80vw;
+    background-color: white;
+    z-index: auto;
+    opacity: 0;
+    transition: 500ms ease all;
+    border-radius:30px
+}
+.teste, .teste-2{
+    position: flex; 
+    margin-left: 30%;
+    width: 40%;
+    opacity: 1;
+    transition: 500ms ease all;
+    text-align: center;
+    font-size:28px;
+    color: white;
+}
+.categoria-1:hover, .categoria-2:hover{
+    height: 40vh;
+}
+.categoria-1:hover > .configuracao-pedido, .categoria-2:hover > .configuracao-pedido{
+    opacity: 1;
+}
+.configuracao-pedido:hover{
+height: 100%
+}
+.input-container{ 
+    margin: auto;
+    width: 60%;
+    height: 15%;
+    margin-left:25%;
+    margin-top:3%;
+}
+.input-container select{
+    width: 100%;
+}
+button{
+width: 100%;
+margin: auto;
+}
+
+p{
+    margin-left: 42%;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+}
