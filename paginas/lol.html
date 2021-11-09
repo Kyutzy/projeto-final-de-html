@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mais League of Legends</title>
     <link rel="stylesheet" href="../css/lol.css">
+    <script src="../js/geral.js"></script>
 </head>
 <body>
     <section class="fundo">
+        <form name=form_elo>
     <div class="logo"><img src="../imagens/logo.png"></div>
         <div class="container-produtos">
             <div class="categoria-1">
                 <div class="teste">Elojob Padrão</div>
                 <div class="configuracao-pedido">
                     <p> Elo Atual </p>
-                    <div class=input-container><select>
+                    <div class=input-container><select name="elo_inicial_lol_ej">
                         <option value="Ferro">Ferro</option>
                         <option value="Bronze">Bronze</option>
                         <option value="Prata">Prata</option>
@@ -27,7 +29,7 @@
                         <option value="Desafiante">Challenger</option>
                     </select></div>
                     <p>Elo dos sonhos</p>   
-                    <div class=input-container><select>
+                    <div class=input-container><select name="elo_final_lol_ej">
                         <option value="Ferro">Ferro</option>
                         <option value="Bronze">Bronze</option>
                         <option value="Prata">Prata</option>
@@ -38,14 +40,14 @@
                         <option value="Grao-Mestre">Grão Mestre</option>
                         <option value="Desafiante">Challenger</option>
                     </select></div>
-                    <div class="logo"><button>Enviar</button></div>
+                    <div class="logo"><button onClick="return comprarEjLol()">Enviar</button></div>
                 </div>
             </div>
             <div class="categoria-2">
                 <div class="teste-2">Duojob Padrão</div>
                 <div class="configuracao-pedido">
                     <p> Elo Atual </p>
-                    <div class=input-container><select>
+                    <div class=input-container><select name="elo_inicial_lol_dj">
                         <option value="Ferro">Ferro</option>
                         <option value="Bronze">Bronze</option>
                         <option value="Prata">Prata</option>
@@ -57,7 +59,7 @@
                         <option value="Desafiante">Challenger</option>
                     </select></div>
                     <p>Elo dos sonhos</p>   
-                    <div class=input-container><select>
+                    <div class=input-container><select name="elo_final_lol_dj">
                         <option value="Ferro">Ferro</option>
                         <option value="Bronze">Bronze</option>
                         <option value="Prata">Prata</option>
@@ -68,13 +70,14 @@
                         <option value="Grao-Mestre">Grão Mestre</option>
                         <option value="Desafiante">Challenger</option>
                     </select></div>
-                    <div class="logo"><button>Enviar</button></div>
+                    <div class="logo"><button onClick="comprarDjLol">Enviar</button></div>
                 </div>
             </div>
+            
         </div>
     </section>
     
-    
+</form>
     </section>
     
 </body>

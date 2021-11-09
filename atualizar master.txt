@@ -1,0 +1,6 @@
+git checkout cadastro
+git add ./imagens
+git add ./css/cadastro.css
+git add ./paginas/cadastro
+git commit
+git push
